@@ -45,7 +45,7 @@ const EditarUsuario = () => {
     if (errorMutation) {
       toast.error( 'Error modificando el usuario' );
     }
-    if (errorQuery) {
+    if (errorQuery)  {
       toast.error('Error modificando el usuario');
     }
   }, [errorMutation, errorQuery]);
