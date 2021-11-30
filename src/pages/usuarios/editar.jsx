@@ -43,7 +43,7 @@ const EditarUsuario = () => {
 
   useEffect(() => {
     if (errorMutation) {
-      toast.error('Error modificando el usuario');
+      toast.error( 'Error modificando el usuario' );
     }
     if (errorQuery) {
       toast.error('Error modificando el usuario');
